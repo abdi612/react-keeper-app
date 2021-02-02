@@ -1,8 +1,14 @@
+import Header from './Header';
+import Note from './Note';
+import Footer from './Footer';
+
 const App = ()=>{
     return (
         <div>
-            Hello World!
+            <Header/>
+            <Note/>
+            <Footer/>
         </div>
     )
 }
-export default App
+export default App;
