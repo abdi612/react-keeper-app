@@ -1,8 +1,9 @@
-const Note = ()=>{
+
+const Note = (props)=>{
     return (
         <div className="note">
-            <h1>Note Header</h1>
-            <p>This a test note</p>
+            <h1>{props.title}</h1>
+            <p>{props.content}</p>
         </div>
     )
 }

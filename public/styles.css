@@ -30,6 +30,7 @@
     bottom: 0;
     width: 100%;
     height: 2.5rem;
+
   }
   
   footer p {
@@ -46,7 +47,10 @@
   }
   .note h1 {
     font-size: 1.1em;
-    margin-bottom: 6px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    text-align: center;
+
   }
   .note p {
     font-size: 1.1em;
